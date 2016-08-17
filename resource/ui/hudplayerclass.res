@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"0"
+		"xpos"			"-10"
 		"ypos"			"0"
 		"ypos_minmode"	"18"
 		"zpos"			"1"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"-200"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
@@ -27,7 +27,7 @@
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"37"
-		"tall"			"75"
+		"tall"			"100"
 		"tall_minmode"	"37"
 		"visible"		"1"
 		"enabled"		"1"
@@ -88,7 +88,7 @@
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -103,15 +103,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
+		"xpos"			"-30"		[$WIN32]
 		"xpos_minmode"	"-15"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"ypos"			"r100"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
+		"wide"			"150"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -154,7 +154,7 @@
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
-			"origin_x" "200"
+			"origin_x" "100"
 			"origin_y" "0"
 			"origin_z" "-60"
 			"frame_origin_x"	"0"

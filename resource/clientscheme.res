@@ -2897,9 +2897,154 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+                 
+                 SteelfishRg12
+		{
+			"1"
+			{
+				"name"		"SteelfishRg-Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+                }
+                 SteelfishRg16
+		{
+			"1"
+			{
+				"name"		"SteelfishRg-Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+                }
+                SteelfishRg24
+		{
+			"1"
+			{
+				"name"		"SteelfishRg-Regular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+                }
+                SteelfishRg32
+		{
+			"1"
+			{
+				"name"		"SteelfishRg-Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+                }
+                SteelfishRg64
+		{
+			"1"
+			{
+				"name"		"SteelfishRg-Regular"
+				"tall"		"64"
+				"antialias" "1"
+			}
+                }
+                SteelfishOutline12
+		{
+			"1"
+			{
+				"name"		"SteelfishOutline-Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+                }
+                SteelfishOutline16
+		{
+			"1"
+			{
+				"name"		"SteelfishOutline-Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+                }
+                SteelfishOutline24
+		{
+			"1"
+			{
+				"name"		"SteelfishOutline-Regular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+                }
+                SteelfishOutline32
+		{
+			"1"
+			{
+				"name"		"SteelfishOutline-Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+                }
+                SteelfishOutline64
+		{
+			"1"
+			{
+				"name"		"SteelfishOutline-Regular"
+				"tall"		"64"
+				"antialias" "1"
+			}
+                }
+                CoutureBold12
+		{
+			"1"
+			{
+				"name"		"Couture-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+                }
+                CoutureBold16
+		{
+			"1"
+			{
+				"name"		"Couture-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+                }
+                CoutureBold24
+		{
+			"1"
+			{
+				"name"		"Couture-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+                }
+                CoutureBold32
+		{
+			"1"
+			{
+				"name"		"Couture-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+                }
+                CoutureBold42
+                {
+                
+                        "1"
+                        {
+                                "name"          "Couture-Bold"
+                                "tall"          "42"
+                                "antialias"  "1"
+                        }
+                }
+                CoutureBold64
+		{
+			"1"
+			{
+				"name"		"Couture-Bold"
+				"tall"		"64"
+				"antialias" "1"
+			}
 	}
-
+  
+   
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5389,6 +5534,17 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
+		"7"
+                {"font" "resource/fonts/steelfish outline.ttf"
+                 "name" "SteelfishOutline-Regular"
+                }
+                "8"
+                {"font" "resource/fonts/steelfish outline.ttf"
+                 "name" "SteelfishRg-Italic"
+                }
+                 "9"
+                {"font" "resource/fonts/steelfish outline.ttf"
+                 "name" "SteelfishRg-Regular"
+                }
 	}
 }
