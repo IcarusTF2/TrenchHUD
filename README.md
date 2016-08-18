@@ -9,4 +9,4 @@ Any feedback, bug reports, and general discussions about the HUD are accepted in
 
 The TrenchHUD steam group is located at http://steamcommunity.com/groups/trenchhud/
 
-Well, what are you waiting for soldier! The wonderful world of war is waiting for you ( just a joke, chill) Get in the trenches and fight!
+Well, what are you waiting for soldier! The wonderful world of war is waiting for you! Get in the trenches and fight!
