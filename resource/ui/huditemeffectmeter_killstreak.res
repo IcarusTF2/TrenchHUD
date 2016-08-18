@@ -5,12 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"-15"
+		"ypos"			"r120"	
+		"wide"			"1000"
+		"tall"			"7000"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,14 +17,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-13"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -39,11 +36,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"30"
+		"ypos"					"-56"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"100"
+		"tall"					"150"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -53,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"CoutureBold12"
 	}
 
 	"ItemEffectMeter"
@@ -83,11 +80,10 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos_minmode"			"18"
-		"ypos"					"10"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"50"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -96,7 +92,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font"					"CoutureBold24"
 	}
 }

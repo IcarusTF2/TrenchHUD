@@ -88,7 +88,7 @@
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
-		"tall"			"100"
+		"tall"			"155"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
