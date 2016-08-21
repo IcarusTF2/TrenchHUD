@@ -34,10 +34,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"999999"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
-		"zpos"			"3"
+		"ypos"			"999999"
+		"zpos"			"9999999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"

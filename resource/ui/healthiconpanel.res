@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"	
 		"TFFont"		"HudFontSmall"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"White"
 		"autoResize"	"1"
 	}	
 }

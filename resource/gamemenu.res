@@ -1,28 +1,30 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
+	"omphudLabel"
 	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"label" "TrenchHUD" 
+		"command" "engine con_enable 1; engine showconsole; clear; echo TrenchHUD! Special thanks to Griever, Rays, and omp!"
+		"OnlyAtMenu" "0"
 	}
 	"FindAGameButton"
 	{
 		"label" "#MMenu_FindAGame" 
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
+		"OnlyAtMenu"	"0"
 	}
-
-	"FindAGameButtonHalfWidth"
+	"ReplayBrowserButton"
 	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"1"
+		"label" "Replays"
+		"command" "engine replay_reloadbrowser"
+		"subimage" "glyph_tv"
 	}
-
+	"SteamWorkshopButton"
+	{
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" "glyph_steamworkshop"
+	}
 	"VRModeButton"
 	{
 		"label" "#MMenu_VRMode_Activate"
@@ -30,16 +32,30 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-
+	"TrainingButton"
+	{
+		"label" "Training"
+		"command" "offlinepractice"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+	}
+	
+	// These buttons get positioned by the MainMenuOverride.res
+	"CreateServerButton"
+	{
+		"label" "Create"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" "0"
+	}	
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
@@ -52,7 +68,7 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"tooltip" "Call a Vote"
 	}
 	"MutePlayersButton"
 	{
@@ -60,7 +76,7 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"tooltip" "Mute Players"
 	}
 	"RequestCoachButton"
 	{
@@ -68,7 +84,7 @@
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"tooltip" "Request a Coach"
 	}
 	"ReportPlayerButton"
 	{
@@ -79,3 +95,4 @@
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
+

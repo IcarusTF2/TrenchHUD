@@ -18,6 +18,20 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+
+		// TrenchHUD Colors
+		"G_HealthBarBg"			"0 0 0 220" // Target health bg
+		"G_Overheal"			"255 255 255 255" // Overhealed health value color
+		"G_White"				"255 255 255 255"
+		"G_Grey"				"54 54 54 255" // Move building bg
+		"G_CustomTargetID" 				"0 0 0 100" // Custom target id bg color
+		"G_Shadow"				"0 0 0 220" // Shadow color
+		"TargetIDBG"			"39 52 59 255"
+		
+
+
+
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
