@@ -2090,7 +2090,7 @@
 		"xpos"			"100"
 		"ypos"			"135"
 		"zpos"			"500"
-		"wide"			"160"
+		"wide"			"260"
 		"tall"			"0"
 		"visible"		"1"
 

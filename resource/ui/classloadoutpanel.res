@@ -89,6 +89,23 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
+	"bg"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"bg"
+		"xpos"				"0"
+		"ypos"				"-60"
+		"zpos"				"-99"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"1"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/loadoutbg"
+	}
 	
 	"CaratLabel"
 	{
