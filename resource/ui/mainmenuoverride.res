@@ -186,7 +186,7 @@
 		"zpos"			"-200"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"

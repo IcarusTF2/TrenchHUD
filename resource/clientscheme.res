@@ -27,6 +27,8 @@ Scheme
 		"G_CustomTargetID" 				"0 0 0 100" // Custom target id bg color
 		"G_Shadow"				"0 0 0 220" // Shadow color
 		"TargetIDBG"			"39 52 59 255"
+		"G_HealthValue"			"255 255 255 255" // Health value color
+		"G_LowHealthValue"		"255 255 255 255" // Low health value color
 		
 
 

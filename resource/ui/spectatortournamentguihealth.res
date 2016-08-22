@@ -22,8 +22,8 @@
 		"zpos"			"3"
 		"wide"			"24"
 		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	

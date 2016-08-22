@@ -34,16 +34,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"999999"
-		"xpos_minmode"	"58"
-		"ypos"			"999999"
-		"zpos"			"9999999"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"15"
+		"ypos"			"-100"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"0"	
+		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -81,7 +80,6 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CoutureBold42"
-		"fgcolor"		"White"
 	}								
 	"PlayerStatusBleedImage"
 	{

@@ -8,7 +8,7 @@
 		"ypos"					"0" // 1 CTID
 		"zpos"					"-1" // 2 CTID
 		"wide"					"252"
-		"tall"	 				"50"
+		"tall"	 				"40"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -37,8 +37,8 @@
 		"tall"	 				"40"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"0" // 3 CTID
-		"enabled"				"1"
+		"visible"				"0" 
+		"enabled"				"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"G_CustomTargetID"
 	}
@@ -90,12 +90,12 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabel"
-		"font"				"G_FontSmall_2"
+		"font"				"SteelfishRg16"
 		"xpos"				"33"
-		"ypos"				"9"
+		"ypos"				"5"
 		"zpos"				"1"
 		"wide"				"640"
-		"tall"				"12"
+		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -217,8 +217,8 @@
 		"zpos"					"5"
 		"wide"					"32"
 		"tall"					"36"
-		"visible"				"1"
-		"enabled"				"1"	
+		"visible"				"0"
+		"enabled"				"0"	
 		"paintbackground"		"1" // 2 CTID
 		"paintborder"			"1" // 2 CTID
 		"border"				"G_TargetBorder"
