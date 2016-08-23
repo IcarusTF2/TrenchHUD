@@ -20,9 +20,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
+		"image"			"vgui/replay/thumbnails/loadingbg"
 		"scaleImage"		"1"
 	}
 	"OnYourWayLabel" [$WIN32]

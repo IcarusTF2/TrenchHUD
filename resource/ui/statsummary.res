@@ -22,7 +22,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
+		"image"			"vgui/replay/thumbnails/loadingbg"
 		"scaleImage"		"1"
 	}	
 
@@ -48,7 +48,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"stamp_background_map"
+			"image"			"vgui/replay/thumbnails/loadingbg"
 			"scaleImage"		"1"
 		}
 
@@ -92,6 +92,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"border"		"TFThinLineBorder"
+				"image"		"vgui/replay/thumbnails/loadingbg"
 			}
 	
 			"ActualLabel"
